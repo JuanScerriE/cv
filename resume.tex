@@ -5,8 +5,8 @@
 \usepackage[
 top = 1.5cm,
 bottom = 1.5cm,
-left = 1.75cm,
-right = 1.75cm,
+left = 1.65cm,
+right = 1.6cm,
 marginparsep = 0pt,
 marginparwidth = 0pt,
 ]{geometry} % for good margins
@@ -22,6 +22,7 @@ marginparwidth = 0pt,
 
 % MACROS & DEFS
 
+\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.45ex}{\tiny\bf ++}}}
 \newcommand{\dateentry}[4]{
 \begin{tabular}{r||l}
 \begin{minipage}[t]{0.2\textwidth}\hfill#1\end{minipage} & \begin{minipage}[t]{0.70\textwidth}\textbf{#2}
@@ -103,101 +104,68 @@ marginparwidth = 0pt,
 
 \section{Relevant Experience}
 
-\dateentry{Q4 2021}{HackTheBox University CTF}{Team: MelitaBusters, Ranking:
-59/594}{I particiated as a member of the University of Malta's CTF team, with a
-focus on cryptography.}
+\dateentry{Q4 2021}{HackTheBox University CTF}{Team:
+MelitaBusters, Ranking: 59/594}{I participated as a member of the
+University of Malta's CTF team, with a focus on cryptography.}
 
-\dateentry{Q3 2021}{MITA Student Placement Programme}{Deployment at the IT
-Management Unit of the Ministry for National Heritage, Arts and Local
-Goverment}{I was tasked with checking local councils' internal networks and
-ensuring that devices where using the latest version of Windows.}
+\dateentry{Q3 2021}{MITA Student Placement Programme}{Deployment
+at the IT Management Unit of the Ministry for National Heritage,
+Arts and Local Government}{I was tasked with checking local
+  councils' internal networks and ensuring that devices where
+using the latest version of Windows.}
 
-\dateentry{Q3 2021 -- NOW}{Front-end Web Development}{Voluntary work for the
-Malta Mathematical Society (MMS)}{I am developing a simple website for the
-MMS.}
+\section{Completed Projects}
 
-\dateentry{2020 -- NOW}{Java and Python Development}{Development of a
-Propositional Logic Calculator}{Firstly, I wrote the calculator in Python and
-then, I rewrote it in Java. My latest efforts include generating random valid
+\dateentry{Q1 2022}{DataTable/CPS1011 Assignment}{Assignment for
+Programming Principles (in C)}{I developed a very rudimentary
+CLI spreadsheet program. During development I followed good C
+programming practices.}
+
+\section{Pending Projects}
+
+\dateentry{Q3 2021 -- NOW}{Front-end Web Development}{Voluntary
+work for the Malta Mathematical Society (MMS)}{I am developing a
+simple website for the MMS.}
+
+\dateentry{2020 -- NOW}{Java and Python Development}{Development
+of a Propositional Logic Calculator}{Firstly, I wrote the
+calculator in Python and then, I rewrote it in Java. My latest
+efforts include generating random valid
 implications/equivalences.}
 
 \section{Education}
 
-\dateentry{Q4 2021 -- NOW}{B.Sc. (Hons) in Mathematics and Computer
-Science}{University of Malta}{I am in my first year of the above-mentioned
-course.}
+\dateentry{Q4 2021 -- NOW}{B.Sc. (Hons) in Mathematics and
+Computer Science}{University of Malta}{I am in my first year of
+the above-mentioned course.}
 
-\dateentry{2019 -- 2021}{MATSEC Matriculation Certificate}{St. Aloysius'
-College, Sixth From}{Advanced: Pure Mathematics (A), Computing (A).
-Intermediate: Physics (A), Philosophy (A), English (B), Systems of Knowledge
-(A).}
+\dateentry{2019 -- 2021}{MATSEC Matriculation Certificate}{St.
+Aloysius' College, Sixth From}{Advanced: Pure Mathematics (A),
+Computing (A). Intermediate: Physics (A), Philosophy (A),
+English (B), Systems of Knowledge (A).}
 
-\dateentry{2014 -- 2019}{MATSEC Secondary Education Certificate (SEC)}{St.
-Benedict's College, Kirkop Secondary School} {12 MATSEC O-Levels.}
+\dateentry{2014 -- 2019}{MATSEC Secondary Education Certificate
+(SEC)}{St. Benedict's College, Kirkop Secondary School}{12
+MATSEC O-Levels.}
 
 \section{Skills}
 
 \begin{center}
-\begin{tabular}{c@{\hfill}||@{\hfill}c@{\hfill}||@{\hfill}c}
-\begin{spacing}{1.125}
-\begin{minipage}[t]{0.3\textwidth}
-\begin{center}
-\ulbf{Programming Languages}
-
-C, Java, Python
+\setlength{\tabcolsep}{20pt}
+  \begin{tabular}{c||c}
+    \ulbf{Programming Languages} & \ulbf{Markup Languages}\\
+    C, Java, Python & HTML and CSS, Markdown,
+    \textrm{\LaTeX}\\\\
+    \ulbf{Workflow} & \ulbf{Operating Systems}\\
+    Tiling Window Managers, Neovim, Terminals & Linux, macOS\\\\
+    \ulbf{Other Languages} & \\
+    Bash, JavaScript, Rust, \CC & 
+  \end{tabular}
 \end{center}
-\end{minipage}&
-\begin{minipage}[t]{0.3\textwidth}
-\begin{center}
-\ulbf{Markup Languages}
-
-HTML and CSS, Markdown, \LaTeX
-\end{center}
-\end{minipage}&
-\begin{minipage}[t]{0.3\textwidth}
-\begin{center}
-\ulbf{Version Control}
-
-Git, GitHub, GitLab
-\end{center}
-\end{minipage}
-\end{spacing}
-\end{tabular}
-\end{center}
-\vspace{0.25cm}
-
-\begin{center}
-\begin{tabular}{c@{\hfill}||@{\hfill}c@{\hfill}||@{\hfill}c}
-\begin{spacing}{1.125}
-\begin{minipage}[t]{0.3\textwidth}
-\begin{center}
-\ulbf{Workflow}
-
-Tiling Window Manager, Neovim, Terminal
-\end{center}
-\end{minipage}&
-\begin{minipage}[t]{0.3\textwidth}
-\begin{center}
-\ulbf{Operating Systems}
-
-Linux, macOS
-\end{center}
-\end{minipage}&
-\begin{minipage}[t]{0.3\textwidth}
-\begin{center}
-\ulbf{Other Languages}
-
-Bash, JavaScript, Rust
-\end{center}
-\end{minipage}
-\end{spacing}
-\end{tabular}
-\end{center}
-\vspace{0.25cm}
 
 \section{Areas of Interest}
 
-\ulsubsection{Low-level Programming}
+\ulsubsection{Low-level/Systems Programming}
 
 I am interested in this type of programming because of the nuance and
 subtleties of the platform which the programmer has to keep in mind. This helps
@@ -228,6 +196,10 @@ $\bullet$ \url{https://github.com/girogio/LogicCalculator}
 \textbf{Java Logic Calculator Repository}
 
 $\bullet$ \url{https://github.com/JuanScerriE/LogicCalculator}
+
+\textbf{DataTable/CPS1011 Assignment Repository}
+
+$\bullet$ \url{https://gitlab.com/JuanScerriE/cps1011-assignment}
 
 \begin{center}
 \vspace{1em}\rule{.25\textwidth}{0.5pt}
